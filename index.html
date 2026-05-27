@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venu | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home"><span class="logo-icon">V</span>enu</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hello, I'm <span class="highlight">Venu</span></h1>
+                <p class="hero-subtitle typing-effect">Java Full Stack Developer</p>
+                <p class="hero-description">
+                    Passionate about building real-world applications that solve problems and create impact.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="venu9.jpeg" alt="Venu profile" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-box"><i class="fas fa-code"></i></div>
+                </div>
+                <div class="about-text">
+                    <h3>I'm Venu, a Java Full Stack Developer</h3>
+                    <p>
+                        I am a dedicated and passionate full-stack developer with expertise in building scalable,
+                        efficient, and user-friendly applications. My journey in technology has been driven by a
+                        commitment to continuous learning and solving real-world problems.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+                            <p>Bachelor's in Computer Science / Information Technology</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4><i class="fas fa-briefcase"></i> Career Goal</h4>
+                            <p>To build innovative applications that make a difference in people's lives.</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4><i class="fas fa-target"></i> Expertise</h4>
+                            <p>Full Stack Development, Real-time Systems, Safety &amp; Emergency Solutions</p>
+                        </div>
+                    </div>
+                    <p class="about-closing">
+                        I believe in writing clean, maintainable code and creating solutions that go beyond
+                        requirements. Let's collaborate and build something amazing together!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-paint-brush"></i> Frontend</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card"><i class="fab fa-html5"></i><h4>HTML</h4><p>Semantic markup</p></div>
+                        <div class="skill-card"><i class="fab fa-css3-alt"></i><h4>CSS</h4><p>Responsive design</p></div>
+                        <div class="skill-card"><i class="fab fa-js-square"></i><h4>JavaScript</h4><p>Interactive UIs</p></div>
+                        <div class="skill-card"><i class="fab fa-react"></i><h4>React</h4><p>UI components</p></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card"><i class="fab fa-java"></i><h4>Java</h4><p>Core programming</p></div>
+                        <div class="skill-card"><i class="fas fa-leaf"></i><h4>Spring Boot</h4><p>REST APIs</p></div>
+                        <div class="skill-card"><i class="fas fa-database"></i><h4>PostgreSQL</h4><p>Database design</p></div>
+                        <div class="skill-card"><i class="fas fa-code-branch"></i><h4>Git</h4><p>Version control</p></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-tools"></i> Tools &amp; Tech</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card"><i class="fas fa-cube"></i><h4>REST APIs</h4><p>API development</p></div>
+                        <div class="skill-card"><i class="fas fa-cloud"></i><h4>Cloud Services</h4><p>Deployments</p></div>
+                        <div class="skill-card"><i class="fas fa-check-circle"></i><h4>Testing</h4><p>JUnit &amp; Mockito</p></div>
+                        <div class="skill-card"><i class="fas fa-mobile-alt"></i><h4>Responsive</h4><p>Mobile-first design</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="proficiency-section">
+                <h3 class="category-title">Proficiency Levels</h3>
+                <div class="proficiency-bars">
+                    <div class="proficiency-item"><div class="proficiency-header"><span>Java</span><span>90%</span></div><div class="progress-bar"><div class="progress" style="width: 90%"></div></div></div>
+                    <div class="proficiency-item"><div class="proficiency-header"><span>Spring Boot</span><span>85%</span></div><div class="progress-bar"><div class="progress" style="width: 85%"></div></div></div>
+                    <div class="proficiency-item"><div class="proficiency-header"><span>React</span><span>80%</span></div><div class="progress-bar"><div class="progress" style="width: 80%"></div></div></div>
+                    <div class="proficiency-item"><div class="proficiency-header"><span>PostgreSQL</span><span>85%</span></div><div class="progress-bar"><div class="progress" style="width: 85%"></div></div></div>
+                    <div class="proficiency-item"><div class="proficiency-header"><span>JavaScript</span><span>85%</span></div><div class="progress-bar"><div class="progress" style="width: 85%"></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-shield-alt"></i></div>
+                    <div class="project-content">
+                        <h3>Women Safety System</h3>
+                        <p class="project-description">A comprehensive emergency response system designed to enhance safety and security for women.</p>
+                        <div class="project-features">
+                            <span class="feature-tag"><i class="fas fa-bell"></i> SOS Alerts</span>
+                            <span class="feature-tag"><i class="fas fa-map-marker-alt"></i> Live Tracking</span>
+                            <span class="feature-tag"><i class="fas fa-phone"></i> Emergency Contacts</span>
+                        </div>
+                        <div class="project-tech"><span class="tech-badge">React</span><span class="tech-badge">Spring Boot</span><span class="tech-badge">PostgreSQL</span></div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-plane"></i></div>
+                    <div class="project-content">
+                        <h3>Flight Safety Dashboard</h3>
+                        <p class="project-description">Real-time analytics platform for aviation safety monitoring and accident analysis.</p>
+                        <div class="project-features">
+                            <span class="feature-tag"><i class="fas fa-chart-line"></i> Analytics</span>
+                            <span class="feature-tag"><i class="fas fa-cloud"></i> Weather API</span>
+                            <span class="feature-tag"><i class="fas fa-exclamation-triangle"></i> Alerts</span>
+                        </div>
+                        <div class="project-tech"><span class="tech-badge">Java</span><span class="tech-badge">Spring Boot</span><span class="tech-badge">PostgreSQL</span></div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-network-wired"></i></div>
+                    <div class="project-content">
+                        <h3>Smart IoT Management</h3>
+                        <p class="project-description">IoT device management platform with real-time monitoring and control capabilities.</p>
+                        <div class="project-features">
+                            <span class="feature-tag"><i class="fas fa-wifi"></i> Real-time</span>
+                            <span class="feature-tag"><i class="fas fa-sliders-h"></i> Control</span>
+                            <span class="feature-tag"><i class="fas fa-chart-bar"></i> Monitoring</span>
+                        </div>
+                        <div class="project-tech"><span class="tech-badge">Java</span><span class="tech-badge">React</span><span class="tech-badge">PostgreSQL</span></div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities.</p>
+                    <div class="contact-details">
+                        <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div class="contact-text"><h4>Email</h4><a href="mailto:venu@example.com">venu@example.com</a></div></div>
+                        <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone"></i></div><div class="contact-text"><h4>Phone</h4><a href="tel:+91-xxxxxxxxxx">+91-xxxxxxxxxx</a></div></div>
+                        <div class="contact-item"><div class="contact-icon"><i class="fab fa-linkedin"></i></div><div class="contact-text"><h4>LinkedIn</h4><a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></div></div>
+                        <div class="contact-item"><div class="contact-icon"><i class="fab fa-github"></i></div><div class="contact-text"><h4>GitHub</h4><a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></div></div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group"><label for="name">Name *</label><input type="text" id="name" name="name" required placeholder="Your Name"><span class="error-message" id="nameError"></span></div>
+                    <div class="form-group"><label for="email">Email *</label><input type="email" id="email" name="email" required placeholder="your@email.com"><span class="error-message" id="emailError"></span></div>
+                    <div class="form-group"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" placeholder="Your Phone Number"><span class="error-message" id="phoneError"></span></div>
+                    <div class="form-group"><label for="subject">Subject *</label><input type="text" id="subject" name="subject" required placeholder="Project Discussion"><span class="error-message" id="subjectError"></span></div>
+                    <div class="form-group"><label for="message">Message *</label><textarea id="message" name="message" required placeholder="Your message here..." rows="5"></textarea><span class="error-message" id="messageError"></span></div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <span class="form-message" id="formMessage"></span>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Venu | Java Full Stack Developer. All rights reserved.</p>
+            <p>Designed &amp; Built with <i class="fas fa-heart"></i> by Venu</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
